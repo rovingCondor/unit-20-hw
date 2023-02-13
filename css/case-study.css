@@ -1,0 +1,424 @@
+html {
+  background-color: #ffffff;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    max-width: 1300px;
+  }
+
+/* Navbar | START */
+nav {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.navbar-custom {
+    background-color: #ff5500;
+}
+
+.navbar-brand {
+  padding-right: 10px;
+  position: relative;
+  top:-3px;
+}
+
+nav .navbar-nav li a {
+  text-align: center;
+  color: #000000 !important;
+  }
+
+nav .navbar-nav li a:hover {
+  color: #555555 !important;
+  }
+
+.navbar-nav > li{
+  margin-left:10px;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+/* Navbar | END */
+
+
+
+/* Header | START */
+.jumbotron {
+  background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5) ), url('../img/UX-Web/Fitbudz/Fitbudz-mockup-00.jpg');
+  background-size: cover;
+  height: 70vh;
+  /* background-image: url("../img/UX-Web/Fitbudz/Fitbudz-mockup-00.jpg"); */
+}
+
+.container {
+  text-align: center;
+}
+/* Header | END */
+
+/* Sroll to top | START */
+.scrollToTopBtn {
+  background-color: #8669fb;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 25px;
+  line-height: 48px;
+  width: 48px;
+  position: fixed;
+  bottom: 100px;
+  right: 40px;
+  border-radius: 70%;
+  /* box-shadow: 0 2px 4px #414141; */
+  z-index: 100;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 0.5s ease;
+}
+
+.scrollToTopBtn:active {
+  background-color: #5e44c6;
+  /* box-shadow: 0 0 2px #414141; */
+  transform: translateY(2px);
+}
+
+.showBtn {
+  opacity: 1;
+  transform: translateY(0);
+}
+/* Sroll to top | END */
+
+/* Jumbotron | START */
+.jumbotron h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 90px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.jumbotron p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #d4d4d4;
+}
+
+.fa-arrow-down {
+  color: #fffd89;
+}
+
+a .fa-arrow-down {
+  font-size: 50px;
+}
+
+a:hover .fa-arrow-down {
+  color: #e5ff00;
+}
+
+/* Jumbotron | END */
+
+
+/* Section Offsets | Start */
+#Summary-Offset {
+  position: relative;
+  top: -80px;
+}
+
+#Research-Offset {
+  position: relative;
+  top: -80px;
+}
+
+#Problem-Offset {
+  position: relative;
+  top: -80px;
+}
+
+#Iterations-Offset {
+  position: relative;
+  top: -80px;
+}
+
+#Prototype-Offset {
+  position: relative;
+  top: -80px;
+}
+/* Section Offsets | Start */
+
+
+/* Section Headers | Start */
+.section-header h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 100px 0 25px 0;
+}
+
+.section-header h3 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #494949;
+}
+/* Section Headers | END */
+
+
+/* Accordion | START */
+#accordion .card {
+  margin-bottom: 10px;
+  background-color: #8669fb;
+  border: 0px solid rgb(255, 255, 255);
+}
+
+#accordion .card-body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #555555;
+  background-color: #eeeeee;
+  padding: 35px 30px;
+}
+
+#accordion .card button {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#accordion .btn {
+  text-align: left;
+}
+/* Accordion | END */
+
+
+/* Cards | START */
+#Research .card {
+  padding: 0;
+  border: 0;
+  background-color: #f0f0f0;
+  box-shadow: 5px 5px 6px #b9b9b9;
+}
+
+#Research .card h5 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 23px;
+  color: #000000;
+}
+
+#Research .card p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #4e4e4e;
+}
+
+.btn {
+  width: 100%;
+}
+
+
+#Research .card a {
+  background-color: #8669fb ;
+}
+
+#Research .card a:hover {
+  background-color: #664ec5 ;
+}
+
+#Research .card .btn {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  border: 0;
+  padding: 12px 0;
+}
+
+#Problem .card {
+  background-color: #000;
+  border: 0;
+  box-shadow: 5px 5px 6px #b9b9b9;
+}
+
+#Problem .card .card-body{
+  padding: 30px 50px;
+}
+
+#Problem .card h5{
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 56px;
+  color: #ffffff;
+}
+
+#Problem .card p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #e6e6e6;
+}
+/* Cards | END */
+
+/* Modal | START */
+.modal-body img {
+  width: 100%;
+}
+
+#modal-card .card {
+  height: 350px;
+  margin-top: 50px;
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) ), url('../img/UX-Web/Fitbudz/problem-assets/persona.jpg');
+  background-size: cover;
+}
+
+#modal-card .card-body #modal {
+  padding-top: 250px;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+#modal-card .btn-primary {
+  background-color: #d7cdff ;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  color: #2a1b63;
+  border: 0;
+  padding: 12px 0;
+}
+/* Modal | END */
+
+/* Media Obj | START */
+
+#Prototype .media{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#Prototype h5 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+  color: #2c2c2c;
+  padding: 0 50px;
+  margin-bottom: 20px;
+}
+
+#Prototype p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #3f3f3f;
+  padding: 0 50px;
+  line-height: 2em;
+}
+
+#Prototype .media img {
+  border: 1px solid #e2e2e2;
+  box-shadow: 5px 5px 6px #b9b9b9;
+}
+
+.lofi-proto img {
+  width: 100%;
+}
+
+.media img {
+  width: 30%;
+}
+/* Media Obj | END */
+
+/* Footer | START */
+footer {
+  background-color: #000;
+  color: #ffffff;
+  padding: 30px 50px 30px 50px;
+  text-align: center;
+}
+
+footer .logo-footer {
+  width: 350px;
+}
+
+footer .social {
+  color: #ffffff;
+  font-size: 25px;
+  padding: 0 5px;
+}
+
+.social-icons-container a:hover {
+  color: #bfafff;
+}
+
+.legal {
+  font-size: 12px;
+}
+
+.social-icons-container {
+  margin-top: -15px
+}
+/* Footer | END */
+
+
+
+/* Media Queries | START */
+
+@media only screen and (min-width: 768px) {
+  footer {
+    text-align: left;
+  }
+}
+
+
+
+@media only screen and (max-width: 992px) {
+
+  .navbar-collapse {
+    color: #ffffff;
+    background: #000;
+    margin: .5rem -1rem;
+    padding: .5rem 1rem;
+  }
+
+  nav .navbar-nav li a {
+    color: #ffffff !important;
+  }
+
+  nav .navbar-nav li a:hover {
+    color: #b3b3b3 !important;
+  }
+
+
+ 
+
+}
+/* Media Queries | END */
+
+
+
+
